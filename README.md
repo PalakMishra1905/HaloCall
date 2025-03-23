@@ -3,30 +3,34 @@ HaloCall – A warm, welcoming video connection.   A video calling app using the
 
 <b>1. Frontend (React)</b>
 
-UI Components: Login, dashboard, call interface (video, audio, and chat).
+<ul>
+  <li>UI Components: Login, dashboard, call interface (video, audio, and chat).</li>
 
-WebRTC Integration: Uses WebRTC APIs to establish peer-to-peer video/audio calls.
+  <li>WebRTC Integration: Uses WebRTC APIs to establish peer-to-peer video/audio calls.</li>
 
-Socket.io Client: Manages signaling for call setup and real-time chat.
+  <li>Socket.io Client: Manages signaling for call setup and real-time chat.</li>
 
-Redux/Context API: Stores user and call state.
-
-Tailwind/Material-UI: Styling and UI enhancements.
+  <li>Tailwind/Material-UI: Styling and UI enhancements.</li>
+</ul>
 
 <b>2. Backend (Node.js + Express)</b>
 
-Socket.io Server: Handles real-time signaling for WebRTC connections.
+<ul>
+  <li>Socket.io Server: Handles real-time signaling for WebRTC connections.</li>
 
-REST API: Manages user authentication, call history, and notifications.
+  <li>REST API: Manages user authentication, call history, and notifications.</li>
 
-JWT Authentication: Secures user sessions.
+  <li>JWT Authentication: Secures user sessions.</li>
 
-MongoDB Database: Stores user profiles, call logs, and chat history.
+  <li>MongoDB Database: Stores user profiles, call logs, and chat history.</li>
+</ul>
 
 <b>3. Real-Time Communication (WebRTC + Socket.io)</b>
 
-Peer Connections: Establishes direct media streams between users.
+<ul>
+  <li>Peer Connections: Establishes direct media streams between users.</li>
 
-Signaling Mechanism: Socket.io is used for offer/answer exchange and ICE candidate sharing.
+  <li>Signaling Mechanism: Socket.io is used for offer/answer exchange and ICE candidate sharing.</li>
 
-STUN/TURN Servers: Used for network traversal and ensuring connectivity.
+  <li>STUN/TURN Servers: Used for network traversal and ensuring connectivity.</li>
+</ul>  
