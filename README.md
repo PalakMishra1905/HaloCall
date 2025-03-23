@@ -1,6 +1,6 @@
 # HaloCall
 HaloCall – A warm, welcoming video connection.   A video calling app using the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.io enables real-time communication between users.
-1. Frontend (React)
+<b>1. Frontend (React)</b>
 
 UI Components: Login, dashboard, call interface (video, audio, and chat).
 
@@ -12,7 +12,7 @@ Redux/Context API: Stores user and call state.
 
 Tailwind/Material-UI: Styling and UI enhancements.
 
-2. Backend (Node.js + Express)
+<b>2. Backend (Node.js + Express)</b>
 
 Socket.io Server: Handles real-time signaling for WebRTC connections.
 
@@ -22,7 +22,7 @@ JWT Authentication: Secures user sessions.
 
 MongoDB Database: Stores user profiles, call logs, and chat history.
 
-3. Real-Time Communication (WebRTC + Socket.io)
+<b>3. Real-Time Communication (WebRTC + Socket.io)</b>
 
 Peer Connections: Establishes direct media streams between users.
 
